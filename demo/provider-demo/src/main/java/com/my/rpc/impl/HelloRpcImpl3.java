@@ -9,6 +9,6 @@ import com.my.rpc.SayHelloRpc3;
 public class HelloRpcImpl3 implements SayHelloRpc3 {
     @Override
     public String sayHi(String msg) {
-        return "1111233332222 + consumer:" + msg;
+        return "333 + consumer:" + msg;
     }
 }
