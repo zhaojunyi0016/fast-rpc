@@ -9,6 +9,6 @@ import com.my.rpc.SayHelloRpc3;
 public class HelloRpcImpl3 implements SayHelloRpc3 {
     @Override
     public String sayHi(String msg) {
-        return " 1123export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890+ + consumer:" + msg;
+        return " =http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890+ + consumer:" + msg;
     }
 }
